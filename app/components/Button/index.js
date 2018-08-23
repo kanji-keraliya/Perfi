@@ -1,7 +1,7 @@
 import React from 'react';
 import T from 'prop-types';
 import { ViewPropTypes, View } from 'react-native';
-import { MaterialIcons } from '@expo/vector-icons';
+import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import Text from '../Text';
 import TouchableItem from '../TouchableItem';
 import s from './styles';

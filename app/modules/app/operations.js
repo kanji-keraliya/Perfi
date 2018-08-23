@@ -1,4 +1,4 @@
-import { Font } from 'expo';
+//import { Font } from 'expo';
 import fonts from '../../constants/fonts';
 import loadImgs from '../../constants/images';
 import {
@@ -8,7 +8,7 @@ import {
 
 const loadFonts = () => async (dispatch) => {
   try {
-    await Font.loadAsync(fonts);
+    //await Font.loadAsync(fonts);
     dispatch(fontsLoaded(true));
   } catch (error) {
     dispatch(fontsLoaded(false));

@@ -2,7 +2,7 @@ import React from 'react';
 import T from 'prop-types';
 import { View, ViewPropTypes } from 'react-native';
 import DatePicker from 'react-native-datepicker';
-import { MaterialCommunityIcons } from '@expo/vector-icons';
+import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import Text from '../Text';
 import s from './styles';
 import { colors } from '../../styles';

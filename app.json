@@ -7,7 +7,9 @@
     "privacy": "public",
     "sdkVersion": "27.0.0",
     "packagerOpts": {
-      "assetExts": ["ttf"]
+      "assetExts": [
+        "ttf"
+      ]
     },
     "orientation": "portrait",
     "primaryColor": "#8BC34A",
@@ -29,5 +31,7 @@
       "supportsTablet": true,
       "bundleIdentifier": "com.apiko.perfi"
     }
-  }
+  },
+  "name": "Perfi",
+  "displayName": "Perfi"
 }

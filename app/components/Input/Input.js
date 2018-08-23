@@ -1,7 +1,7 @@
 import React from 'react';
 import T from 'prop-types';
 import { TextInput, View, ViewPropTypes } from 'react-native';
-import { MaterialCommunityIcons } from '@expo/vector-icons';
+import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import Text from '../Text';
 import { colors } from '../../styles';
 import s from './styles';

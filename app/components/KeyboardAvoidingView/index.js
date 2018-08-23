@@ -4,10 +4,10 @@ import {
   Platform,
   KeyboardAvoidingView as KeyboardAvoiding,
 } from 'react-native';
-import { Constants } from 'expo';
+//import { Constants } from 'expo';
 import { dimensions } from '../../styles';
 
-const keyboardOffset = dimensions.appBarHeight + 16 + Constants.statusBarHeight;
+const keyboardOffset = dimensions.appBarHeight + 16 + 0; //Constants.statusBarHeight;
 
 const defaultAvoid =
   Platform.OS === 'ios'
